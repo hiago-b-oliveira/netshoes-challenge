@@ -22,7 +22,6 @@ public class CompareVersionImpl {
             value = value + (i * q);
             q = q / 100;
         }
-
         return value;
     }
 }
